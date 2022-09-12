@@ -209,7 +209,7 @@ const resumeData = {
 
 const contactData = {
   id: "contact",
-  contactText: "contact me",
+  contactText: "Contact Me",
   submitButton: "Submit",
   inputName: "Your name",
   inputEmail: "Email",
@@ -218,7 +218,7 @@ const contactData = {
 };
 
 const FooterData = {
-  FooterText: "find me on",
+  FooterText: "Contact Me",
 };
 
 const footerSocialData = [
@@ -241,14 +241,14 @@ const footerSocialData = [
     socialImg: "fa fa-envelope",
     socialURL: "mailto:sabaleganesh99@gmail.com",
   },
+  // {
+  //   id: 4,
+  //   socialName: "twitter",
+  //   socialImg: "fab fa-twitter",
+  //   socialURL: "https://twitter.com/GaneshSabale99/",
+  // },
   {
     id: 4,
-    socialName: "twitter",
-    socialImg: "fab fa-twitter",
-    socialURL: "https://twitter.com/GaneshSabale99/",
-  },
-  {
-    id: 5,
     socialName: "Mobile",
     socialImg: "fa fa-mobile",
     socialURL: "tel:+919975322622",

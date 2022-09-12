@@ -4,11 +4,12 @@ import "./ContactContainer.css";
 
 export default function ContactContainer() {
   return (
+    <>
     <section
       className="contact padding-top-bottom custom__outline text-center"
       id={contactData.id}
     >
-      <div className="container">
+      {/* <div className="container">
         <h2
           className="h2__style text-uppercase d-inline-block position-relative custom__underline mb-5"
           data-title={contactData.contactText}
@@ -69,8 +70,8 @@ export default function ContactContainer() {
                 placeholder={contactData.inputSubject}
               />
             </div>
-          </div>
-          <div className=" col-lg-6 ">
+          </div> */}
+          {/* <div className=" col-lg-6 ">
             <div className="input-group h-100 textarea__group">
               <label htmlFor="message" className="sr-only">
                 {contactData.textArea}
@@ -82,17 +83,18 @@ export default function ContactContainer() {
                 placeholder={contactData.textArea}
               ></textarea>
             </div>
-          </div>
-          <div className="input-group justify-content-start">
+          </div> */}
+          {/* <div className="input-group justify-content-start">
             <button
               type="submit"
               className="m-1 my-2 custom__submit mt-5 position-relative "
             >
               {contactData.submitButton}
             </button>
-          </div>
-        </form>
-      </div>
+          </div> */}
+        {/* </form> */}
+      {/* </div> */}
     </section>
+    </>
   );
 }
